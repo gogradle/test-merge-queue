@@ -4,6 +4,7 @@ on:
   merge_group:
   pull_request:
   pull_request_target:
+    types: [auto_merge_enabled]
   push:
 
 jobs:
