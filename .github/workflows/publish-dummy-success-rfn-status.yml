@@ -5,7 +5,7 @@ on:
     types: [auto_merge_enabled]
 
 jobs:
-  printJob:    
+  EmitDummyReadyForNightlyStatus:    
     name: Print event
     runs-on: ubuntu-latest
     steps:
